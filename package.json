@@ -1,0 +1,27 @@
+{
+  "name": "practiceGame",
+  "version": "1.0.0",
+  "description": "experimenting with the real-time multiplayer HTML-5 instructions from buildnewgames.com",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanlester91/practiceGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanlester91/practiceGame/issues"
+  },
+  "homepage": "https://github.com/ryanlester91/practiceGame#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "node-uuid": "^1.4.8",
+    "socket.io": "^2.2.0"
+  }
+}
